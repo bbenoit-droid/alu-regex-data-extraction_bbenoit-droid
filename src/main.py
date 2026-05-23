@@ -15,4 +15,7 @@ si_pattern = r'^[A-Za-z0-9._%+-]+@si\.alueducation\.com$'
 
 print("Extracting email addresses...")
 emails = re.findall(email_pattern, text)
-print(f"Found {len(emails)} email addresses.")
+# print(f"Found {len(emails)} email addresses.")
+print(f"Found email addresses : {(emails)} .")
+with open("../output/sample-output.json", "w", encoding="utf-8") as f:
+    json.dump(emails, f, indent=4)  
