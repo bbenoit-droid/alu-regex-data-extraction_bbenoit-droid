@@ -4,141 +4,38 @@ Generated: 2026-05-23T08:41:11Z
 Environment: production-mirror
 ========================================================
 
-[INFO] New customer onboarding request received.
-
 Customer Name: John A. Murenzi
 Primary Email: john.murenzi@alueducation.com
-Secondary Contact: jmurenzi_backup92@gmail.com
-Phone Number: +250 788 321 901
+Secondary Email: jmurenzi_backup92@gmail.com
+Phone: +250 788 321 901
 Website: https://www.greenbasketafrica.org
-Preferred Contact Time: 08:30 AM
 
-Billing attempt:
-Card Holder: JOHN MURENZI
 Card Number: 4539-1488-0343-6467
-Billing Amount: $249.99
-Transaction Ref: TXN-884-11A
+Amount: 49.99
 
 --------------------------------------------------------
-
-[INFO] Partner hotel registration request
 
 Hotel: LakeView Retreat Kigali
-Manager: Diane Uwase
 Email: diane.uwase@alumni.alueducation.com
-Reception Line: +250 (788) 555-111
-Booking URL: https://lakeviewretreat.rw/bookings
+Phone: +250 (788) 555-111 or +250786101724
+Website: https://lakeviewretreat.rw
 
-Alternative domains submitted:
-http://lakeview-retreat.net
-https://offers.lakeviewretreat.rw/summer-sale
-
-Temporary payment card:
-5500 0000 0000 0004
+Temp Card: 5500 0000 0000 0004
 
 --------------------------------------------------------
 
-[WARNING] Suspicious payload detected from external source
-
-Payload:
-<script>alert('session hijack')</script>
-
-Injected Query:
-DROP TABLE customers;
-
-Malformed emails submitted:
+Suspicious Input:
+<script>alert('hack')</script>
 admin@@fake..com
-support@invalid
-jane#doe@gmail.com
-
-Broken card numbers:
+DROP TABLE users;
 1111-1111-1111-111
-9999-0000-AAAA-7777
-
-Suspicious URL:
-javascript:void(document.cookie)
 
 --------------------------------------------------------
 
-[INFO] Alumni event registration
+Research Email: research@si.alueducation.com
+Meeting Times: 09:45, 14:30, 7:15 PM
 
-Participant: Eric Nshimiyimana
-Email: eric.nshimiyimana@alumni.alueducation.com
-LinkedIn: https://www.linkedin.com/in/eric-nshimiyimana
-Phone: (202) 555-0178
-Backup Phone: 202-555-0189
-
-Emergency contact:
-Name: Alice Mukamana
-Phone: +1 202 888 1122
-
-Payment confirmation:
-Card Used: 4111111111111111
-
---------------------------------------------------------
-
-[INFO] Research department sync
-
-Research Lead:
-Email: research@si.alueducation.com
-Website: https://si.alueducation.com/projects/ai-health
-
-Meeting Times:
-09:45
-14:30
-7:15 PM
-11:59 PM
-
-Additional notes:
-Please review the uploaded HTML snippet before deployment.
-
-<div class="banner">
-    <a href="https://secure.alueducation.com/reset">
-        Reset Password
-    </a>
-</div>
-
---------------------------------------------------------
-
-[DEBUG] Raw webhook payload
-
-{
-    "user": "kevin_rw",
-    "email": "kevin.habimana@gmail.com",
-    "callback": "https://api.partner-service.com/v1/webhooks",
-    "temporaryCard": "3400-000000-00009",
-    "notes": "customer requested callback after 6:45 PM"
-}
-
---------------------------------------------------------
-
-[INFO] Marketing campaign submissions
-
-#FutureAfrica
-#ALUInnovation
-#TechForGood
-
-Campaign URL:
+Campaign:
 https://campaigns.afrinnovators.com/launch?ref=twitter
 
-Contact emails:
-media.team@alueducation.com
-press-office@si.alueducation.com
-
-Support Lines:
-+44 20 7946 0958
-+250-722-000-999
-
---------------------------------------------------------
-
-[ERROR] Invalid records ignored during parsing
-
-Email: root@localhost
-URL: htp://bad-url
-Card: 1234-5678
-Phone: ++250788888
-Time: 25:61
-
-========================================================
-END OF EXPORT
-========================================================
+Contact: media.team@alueducation.com
