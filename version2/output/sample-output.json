@@ -1,0 +1,91 @@
+{
+    "meta": {
+        "source": "ALU SYSTEM AGGREGATOR",
+        "generated_at": "2026-05-23T22:53:20.733247+00:00"
+    },
+    "emails": {
+        "valid": [
+            "john.murenzi@alueducation.com",
+            "finance@alumni.alueducation.com",
+            "eric.nshimiyimana@alumni.alueducation.com",
+            "research@si.alueducation.com",
+            "media.team@alueducation.com",
+            "press-office@si.alueducation.com",
+            "outreach+global@alueducation.com",
+            "kevin.habimana@gmail.com"
+        ],
+        "alu": [
+            "john.murenzi@alueducation.com",
+            "media.team@alueducation.com",
+            "outreach+global@alueducation.com"
+        ],
+        "alumni": [
+            "finance@alumni.alueducation.com",
+            "eric.nshimiyimana@alumni.alueducation.com"
+        ],
+        "si": [
+            "research@si.alueducation.com",
+            "press-office@si.alueducation.com"
+        ],
+        "rejected": []
+    },
+    "phones": [
+        "2026-05-24",
+        "+250 788 321 901",
+        "+250(0)786-101-724",
+        "0788555111",
+        "4539-1488-0343-6467",
+        "202) 555-0178",
+        "202-555-0189",
+        "4111 1111 1111 1111",
+        "+44 20 7946 0958",
+        "+250-722-000-999",
+        "3400-000000-00009",
+        "1234-5678"
+    ],
+    "credit_cards": [
+        {
+            "masked": "************6467",
+            "source": "4539-1488-0343-6467"
+        },
+        {
+            "masked": "************1111",
+            "source": "4111 1111 1111 1111"
+        }
+    ],
+    "urls": {
+        "valid": [
+            "https://portal.alueducation.com/dashboard\",",
+            "https://www.linkedin.com/in/eric-nshimiyimana",
+            "https://si.alueducation.com/api/v1/projects/ai-health",
+            "https://campaigns.afrinnovators.com/launch?ref=twitter&utm=log_export",
+            "https://valid-site.org/path"
+        ],
+        "suspicious": [
+            "http://malicious-site..com/login"
+        ]
+    },
+    "security_events": {
+        "sql_injection_attempts": [
+            "DROP TABLE users; --\""
+        ],
+        "html_injection": [
+            "<div class=\"alert\">",
+            "<a href=\"javascript:void(0)\" onclick=\"stealCookies()\">",
+            "</a>",
+            "</div>"
+        ]
+    },
+    "timestamps": {
+        "valid_times": [
+            "09:45",
+            "14:30",
+            "7:15 PM",
+            "00:00"
+        ],
+        "invalid_times": [
+            "25:61",
+            "14:70"
+        ]
+    }
+}

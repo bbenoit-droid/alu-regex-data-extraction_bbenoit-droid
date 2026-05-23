@@ -1,0 +1,107 @@
+========================================================
+ALU SYSTEM AGGREGATOR — EVENT STREAM EXPORT
+Node: api-gateway-03
+Region: af-south-1
+Timestamp: 2026-05-24T18:42:09Z
+TraceID: 9f3c1a88-ALU-LOG-7781
+========================================================
+
+[INFO] user.authentication.success
+user_id=88419
+email=john.murenzi@alueducation.com
+session=active
+ip=196.188.44.21
+device=chrome-mobile
+
+payload:
+{
+  "redirect": "https://portal.alueducation.com/dashboard",
+  "mfa": true
+}
+
+--------------------------------------------------------
+
+[WARN] payment.gateway.retry
+customer="Lake View Retreat Kigali"
+contact_email: finance@alumni.alueducation.com
+phones: +250 788 321 901 | +250(0)786-101-724 | 0788555111
+amount=249.99 USD
+card=4539-1488-0343-6467
+status=retrying_due_to_timeout
+
+--------------------------------------------------------
+
+[ERROR] malformed.input.detected
+source=webhook:partner-sync
+payload="DROP TABLE users; --"
+email=admin@@fake..com
+email_alt=support@invalid
+url=http://malicious-site..com/login
+
+stack_trace:
+   at parser.decode(input.js:88)
+   at sanitize.run(filter.py:41)
+
+--------------------------------------------------------
+
+[INFO] alumni.event.registration
+participant="Eric Nshimiyimana"
+email=eric.nshimiyimana@alumni.alueducation.com
+phone=(202) 555-0178
+backup_phone=202-555-0189
+linkedin=https://www.linkedin.com/in/eric-nshimiyimana
+
+payment_card: 4111 1111 1111 1111
+status=confirmed
+
+--------------------------------------------------------
+
+[DEBUG] si.research.node.sync
+email: research@si.alueducation.com
+endpoint=https://si.alueducation.com/api/v1/projects/ai-health
+heartbeat=09:45:12
+next_sync=14:30
+
+raw_html:
+<div class="alert">
+    <a href="javascript:void(0)" onclick="stealCookies()">
+        Click here
+    </a>
+</div>
+
+--------------------------------------------------------
+
+[INFO] marketing.campaign.dispatch
+tags=#FutureAfrica #ALUInnovation #SecureSystems
+campaign_url=https://campaigns.afrinnovators.com/launch?ref=twitter&utm=log_export
+contacts:
+   media.team@alueducation.com
+   press-office@si.alueducation.com
+   outreach+global@alueducation.com
+
+phones:
+   +44 20 7946 0958
+   +250-722-000-999
+
+--------------------------------------------------------
+
+[TRACE] edge-case.data.corruption
+email=kevin.habimana@gmail.com
+email_bad=kevin..rw@@gmail..com
+card=3400-000000-00009
+card_invalid=1234-5678
+
+time_values:
+  7:15 PM
+  25:61
+  00:00
+  14:70
+
+url_noise:
+  htp://broken-url.com
+  https://valid-site.org/path
+  javascript:void(document.cookie)
+
+========================================================
+END STREAM
+========================================================
